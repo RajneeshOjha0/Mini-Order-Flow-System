@@ -4,6 +4,7 @@
 /build
 /tmp
 /backend-Nestjs/node_modules
+backend-Nestjs/dist
 # Logs
 logs
 *.log
