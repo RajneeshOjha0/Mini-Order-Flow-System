@@ -3,7 +3,7 @@
 /node_modules
 /build
 /tmp
-
+/backend-Nestjs/node_modules
 # Logs
 logs
 *.log
