@@ -5,6 +5,14 @@
 /tmp
 /backend-Nestjs/node_modules
 backend-Nestjs/dist
+package-lock.json
+#nextjs
+/frontend-nextjs/node_modules
+
+# Build output
+.next/
+out/
+
 # Logs
 logs
 *.log
