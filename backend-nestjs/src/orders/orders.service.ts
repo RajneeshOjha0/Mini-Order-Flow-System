@@ -22,4 +22,13 @@ export class OrdersService {
   async findForUser(userId: number) {
     return this.ordersRepo.find({ where: { user: { id: userId } }, order: { createdAt: 'DESC' } });
   }
+
+  async findOne(orderId: string) {
+    const order = await this.ordersRepo.findOne({ where: { id: orderId } });
+    console.log(order,"ggg");
+    if (!order) {
+      throw new Error('Order not found');
+    }
+    return {status:'success',data:order};
+  }
 }

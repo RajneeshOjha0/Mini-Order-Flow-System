@@ -17,6 +17,7 @@ mini-order-flow/
 
 - Node.js 20+
 - Docker & Docker Compose
+- PHP (For PHP integration part)
 
 ## Setup Instructions
 
@@ -61,6 +62,49 @@ npm run dev
 - Frontend: http://localhost:3001 (Next.js default)
 
 ---
+
+
+PHP Integration for Order Summary
+
+- To view order details using PHP integration:
+
+1. Setup PHP Environment:
+
+Follow the steps below to run the PHP order_summary page:
+
+a. Download and Install XAMPP/MAMP/WAMP:
+
+To run PHP locally, you need a local server environment such as XAMPP.
+
+After installation, ensure that the Apache server is running.
+
+b. Move PHP Files to Web Directory:
+
+Move the PHP files (e.g., order_summary.php) into the htdocs folder for XAMPP.
+
+For example:
+
+XAMPP: C:\xampp\htdocs\order_summary.php
+
+c. Start Apache Server:
+
+Open your XAMPP control panel.
+
+Start Apache .
+
+1. Open PHP Order Summary Page:
+
+To view the order summary:
+
+Open your browser and visit the URL:
+
+XAMPP/ (local server): http://localhost/order_summary.php?order_id=123
+
+Replace 123 with the actual order_id you want to view. copy order id form next.js app
+
+The PHP script will fetch order details from the NestJS backend API and display them on the page.
+
+Ensure that your NestJS API is running and that the order_id exists in your database.
 
 ## How it works
 
