@@ -1,8 +1,9 @@
+"use client"
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import { useRouter } from 'next/router'
-import styles from '../styles/OrderPage.module.css'
-import { baseUrl } from '../global'
+import { useRouter } from 'next/navigation'
+import styles from '../../styles/OrderPage.module.css'
+import { baseUrl } from '../../global'
 export default function OrdersPage() {
   const [amount, setAmount] = useState('')
   const [orders, setOrders] = useState([])
