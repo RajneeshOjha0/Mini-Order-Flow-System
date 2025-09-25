@@ -24,7 +24,7 @@ mini-order-flow/
 1. Clone repo:
 
 ```bash
-git clone <[repo_url](https://github.com/RajneeshOjha0/Mini-Order-Flow-System.git)>
+git clone https://github.com/RajneeshOjha0/Mini-Order-Flow-System.git
 cd Mini-Order-Flow-System
 ```
 
