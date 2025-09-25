@@ -10,6 +10,7 @@ mini-order-flow/
 ├─ frontend-nextjs/
 ├─ docker-compose.yml
 ├─ package.json      <- Run both frontend and backend together
+├─ order_summary.php
 ├─ README.md
 ```
 
